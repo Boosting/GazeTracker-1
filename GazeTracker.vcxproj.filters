@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\aam_lib">
+      <UniqueIdentifier>{e2bec103-3171-4465-b932-4d48f2e5b390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\aam_lib">
+      <UniqueIdentifier>{1f7adc5e-4820-4abe-bbfa-7ef725119c7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aam_lib\AAM_Basic.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_CAM.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_IC.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_MovieAVI.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_PAW.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_PDM.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_Shape.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_TDM.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_Util.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\AAM_VJFaceDetect.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="aam_lib\VJfacedetect.h">
+      <Filter>Header Files\aam_lib</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calibrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PositProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AAMWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aam_lib\AAM_Basic.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_CAM.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_IC.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_MovieAVI.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_PAW.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_PDM.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_Shape.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_TDM.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_Util.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\AAM_VJFaceDetect.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="aam_lib\VJfacedetect.cpp">
+      <Filter>Source Files\aam_lib</Filter>
+    </ClCompile>
+    <ClCompile Include="PositProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EyeModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AAMWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
