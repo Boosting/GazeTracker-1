@@ -70,7 +70,6 @@ namespace
 
   std::unique_ptr<Gazer> gazer;
 
-  // From which source will the images come?
   enum class ImageSource : uint8_t
   {
     IMG_SRC_VIDEO = 0,

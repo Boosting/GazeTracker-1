@@ -3,3 +3,6 @@
 GazeTracker.VC.db
 *.obj
 Release/GazeTracker.tlog/link.write.1.tlog
+/Release/GazeTracker.tlog
+/Release
+/x64/Release
